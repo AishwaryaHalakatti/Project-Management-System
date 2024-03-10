@@ -8,6 +8,21 @@ This project is a simple Project Management System developed using Java 17 and S
 - Implements global exception handling and validation for input data.
 - Provides API documentation using Swagger.
 
+- ## Setup Instructions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone <repository_url>
+
+# Navigate to the Project Directory:
+    cd project-directory
+
+# Build and Run the Project:
+    Using Maven:mvn spring-boot:run
+# Access Swagger UI:
+    http://localhost:8080/swagger-ui/index.html
+
 # API Usage
 Endpoints
 POST /projects: Create a new project.
